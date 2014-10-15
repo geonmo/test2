@@ -1,8 +1,13 @@
 #include<stdio.h>
+void f()
+{
+  printf("HelloWorld\n");
+
+}
 
 int main()
 {
   printf("start\n");
-  printf("HelloWorld\n");
+  f();
   return 0;
 }
