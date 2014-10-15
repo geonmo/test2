@@ -1,8 +1,8 @@
 #include<stdio.h>
-void f()
+int f()
 {
   printf("HelloWorld\n");
-
+  return 0;
 }
 
 int main()
